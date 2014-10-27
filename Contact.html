@@ -130,22 +130,26 @@
                         <h4 class="color3">
                             <span>Contact</span>Form</h4>
                         <img src="images/board.jpg" alt="" class="img1">
-                        <form id="ContactForm" action="mail_handler.php" method="post">
+                        <form id="ContactForm">
                             <div>
                                 <div class="wrapper">
                                     <span>Your Name:</span>
-                                    <input type="text" name="name" class="input">
+                                    <input type="text" class="input">
                                 </div>
                                 <div class="wrapper">
                                     <span>Your E-mail:</span>
-                                    <input type="text" name = "email" class="input">
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="wrapper">
+                                    <span>Your Website:</span>
+                                    <input type="text" class="input">
                                 </div>
                                 <div class="textarea_box">
                                     <span>Your Message:</span>
-                                    <textarea name="message" cols="1" rows="1"></textarea>
+                                    <textarea name="textarea" cols="1" rows="1"></textarea>
                                 </div>
-                                <input class="button2 color3" name = "submit" value = "submit" type = "submit">
-                                <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').reset()"><strong>Clear</strong></a>
+                                <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').submit()">Send</a>
+                                <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').reset()">Clear</a>
                             </div>
                         </form>
                     </div>
