@@ -615,3 +615,17 @@ footer nav {
     font: 12px"Trebuchet MS", Arial, Helvetica, sans-serif;
     height: 91px
 }
+
+input[type="submit"] {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 21px;
+    height: 36px;
+    line-height: 34px;
+    font-weight: 400;
+    background: url(../images/button3_bg.gif) top repeat-x;
+    letter-spacing: -1px
+}
