@@ -104,12 +104,9 @@
                         </li>
                     </ul>
                     <ul class="pagination">
-                        <li id="banner1"><a href="http://www.anyasarmy.com/Help.html">Shave,<span>Dye</span></a>
-                        </li>
-                        <li id="banner2"><a href="http://www.anyasarmy.com/Help.html">Or<span>Donate</span></a>
-                        </li>
-                        <li id="banner3"><a href="http://www.anyasarmy.com/Help.html">Take<span>the pledge</span></a>
-                        </li>
+                        <div id="banner1"><a href="http://www.anyasarmy.com/Help.html">Shave,<span>Dye</span></a></div>
+                        <div id="banner2"><a href="http://www.anyasarmy.com/Help.html">Or<span>Donate</span></a></div>
+                        <div id="banner3"><a href="http://www.anyasarmy.com/Help.html">Take<span>the pledge</span></a></div>
                     </ul>
                 </div>
             </header>
@@ -204,7 +201,7 @@
                     }, 600, 'easeOutExpo')
             }
         })
-        $('.pagination li').hover(function() {
+        $('.pagination div').hover(function() {
             if (!$(this).hasClass('current')) {
                 $(this).find('a').stop().animate({
                     backgroundPosition: '0 0'

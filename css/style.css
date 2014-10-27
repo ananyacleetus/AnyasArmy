@@ -207,7 +207,7 @@ header {} #logo {
     top: 0;
     z-index: 3
 }
-.pagination li {
+.pagination div {
     width: 250px;
     height: 155px
 }
