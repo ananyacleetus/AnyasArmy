@@ -474,7 +474,9 @@ header {} #logo {
 
 footer {
     background: #000;
-    padding: 21px 36px 44px
+    padding: 21px 36px 44px;
+    width: 868px;
+    margin: auto;
 }
 #footer_logo {
     float: left;
