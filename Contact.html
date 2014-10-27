@@ -133,25 +133,23 @@
                         <form id="ContactForm" action="mail_handler.php" method="post">
                             <div>
                                 <div class="wrapper">
-                                    <span>First Name:</span>
-                                    <input type="text" name = "first_name" class="input">
-                                </div>
-                                 <div class="wrapper">
-                                    <span>Last Name:</span>
-                                    <input type="text" name = "last_name" class="input">
+                                    <span>Your Name:</span>
+                                    <input type="text" class="input">
                                 </div>
                                 <div class="wrapper">
                                     <span>Your E-mail:</span>
-                                    <input type="text" name = "email" class="input">
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="wrapper">
+                                    <span>Your Website:</span>
+                                    <input type="text" class="input">
                                 </div>
                                 <div class="textarea_box">
                                     <span>Your Message:</span>
-                                    <textarea name="message" cols="1" rows="1"></textarea>
+                                    <textarea name="textarea" cols="1" rows="1"></textarea>
                                 </div>
-<input type="submit" name="submit" value="Submit">
-
-                                <!-- <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').submit()">Send</a>
-                                <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').reset()">Clear</a> -->
+                                <a href="#" class="button2 color3" value = "submit">Send</a>
+                                <a href="#" class="button2 color3" onClick="document.getElementById('ContactForm').reset()">Clear</a>
                             </div>
                         </form>
                     </div>
