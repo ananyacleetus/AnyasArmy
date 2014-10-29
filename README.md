@@ -13,5 +13,4 @@ Website I created for Anya's Army Fundraiser
 <li>Most of Help page needs info</li>
 <li>Add message for submit form so user knows submitted</li>
 <li>Get widget code for GoFundMe</li>
-<li>Rename htmls</li>
 </ul>
